@@ -1,0 +1,282 @@
+[
+    {
+      "Category": "Appetizers",
+      "Name": "BRICK OVEN WINGS",
+      "Description": "8 Jumbo party wings marinated and brick oven roasted, fried crispy and tossed in your choice of mild, hot, barbecue, honey mustard or garlic parmesan. Includes bleu cheese or ranch and celery",
+      "Price": 11.5,
+      "Calories": 699,
+      "Customer Rating": 4.2
+    },
+    {
+      "Category": "Appetizers",
+      "Name": "FRIED MOZZARELLA WEDGES",
+      "Description": "Three Hand cut fresh mozzarella, breaded and fried golden brown, served with a side of marinara sauce",
+      "Price": 9.5,
+      "Calories": 600,
+      "Customer Rating": 4.6
+    },
+    {
+      "Category": "Appetizers",
+      "Name": "STACKED EGGPLANT",
+      "Description": "Breaded eggplant, fresh mozzarella, ricotta cheese, lightly drizzled with balsamic vinaigrette, oven roasted and served with a side of marinara sauce",
+      "Price": 11.5,
+      "Calories": 150,
+      "Customer Rating": 3.9
+    },
+    {
+      "Category": "Appetizers",
+      "Name": "FRIED ZUCCHINI CHIPS",
+      "Description": "Three Fresh zucchini batter dipped, then fried to a golden crisp, served with a side of marinara sauce",
+      "Price": 8.5,
+      "Calories": 220,
+      "Customer Rating": 4
+    },
+    {
+      "Category": "Salads",
+      "Name": "CLIFF SALAD",
+      "Description": "Romaine, grilled chicken, penne pasta, hard-boiled egg and baked croutons with your choice of dressing",
+      "Price": 12.5,
+      "Calories": 199,
+      "Customer Rating": 4.1
+    },
+    {
+      "Category": "Salads",
+      "Name": "CHEF SALAD",
+      "Description": "Mixed lettuce, ham, turkey, American cheese, chopped tomato, hard-boiled egg & red onions with your choice of dressing",
+      "Price": 12.5,
+      "Calories": 125,
+      "Customer Rating": 4.5
+    },
+    {
+      "Category": "Salads",
+      "Name": "GARDEN SALAD",
+      "Description": "Mixed greens, tomatoes, cucumbers, carrots and red onions with your choice of dressing",
+      "Price": 9,
+      "Calories": 100,
+      "Customer Rating": 3.9
+    },
+    {
+      "Category": "Salads",
+      "Name": "CAESAR SALAD",
+      "Description": "Romaine, shaved parmesan & baked croutons with Caesar dressing",
+      "Price": 9,
+      "Calories": 280,
+      "Customer Rating": 3.8
+    },
+    {
+      "Category": "Add Ons",
+      "Name": "Add Grilled Chicken",
+      "Description": "Slices of chargrilled chicken breast",
+      "Price": 5,
+      "Calories": 120,
+      "Customer Rating": "n/a"
+    },
+    {
+      "Category": "Add Ons",
+      "Name": "Add Shrimp",
+      "Description": "Three medium grilled shrimp",
+      "Price": 6,
+      "Calories": 120,
+      "Customer Rating": "n/a"
+    },
+    {
+      "Category": "Specialties",
+      "Name": "LASAGNA",
+      "Description": "Noodles stuffed with cheese, topped with marinara sauce and mozzarella cheese",
+      "Price": 14.5,
+      "Calories": 600,
+      "Customer Rating": 4.1
+    },
+    {
+      "Category": "Specialties",
+      "Name": "EGGPLANT ROLLATINI",
+      "Description": "Lightly breaded eggplant cutlets rolled and stuffed with ricotta and mozzarella, topped in a marinara sauce",
+      "Price": 15.5,
+      "Calories": 650,
+      "Customer Rating": 4.3
+    },
+    {
+      "Category": "Specialties",
+      "Name": "HOMEMADE MANICOTTI",
+      "Description": "Stuffed with ricotta cheese, topped with tomato sauce and mozzarella cheese",
+      "Price": 15.5,
+      "Calories": 750,
+      "Customer Rating": 4.9
+    },
+    {
+      "Category": "Specialties",
+      "Name": "STUFFED SHELLS",
+      "Description": "With ricotta cheese, topped with tomato sauce and mozzarella cheese",
+      "Price": 15.5,
+      "Calories": 550,
+      "Customer Rating": 4.8
+    },
+    {
+      "Category": "Specialties",
+      "Name": "BAKED GNOCCHI",
+      "Description": "With tomato sauce, topped with mozzarella cheese",
+      "Price": 15.5,
+      "Calories": 450,
+      "Customer Rating": 4.6
+    },
+    {
+      "Category": "Specialties",
+      "Name": "EGGPLANT PARMIGIANA",
+      "Description": "Topped with marinara sauce, melted mozzarella and parmesan sauce. Includes pasta.",
+      "Price": 16.5,
+      "Calories": 700,
+      "Customer Rating": 4.5
+    },
+    {
+      "Category": "Chicken",
+      "Name": "FRANCESE",
+      "Description": "Egg battered and sauteed in a lemon butter sauce",
+      "Price": 18.5,
+      "Calories": 425,
+      "Customer Rating": 4.9
+    },
+    {
+      "Category": "Chicken",
+      "Name": "FLORENTINE",
+      "Description": "Sauteed in a garlic, white wine and lemon sauce, topped with spinach and mozzarella cheese",
+      "Price": 18.5,
+      "Calories": 525,
+      "Customer Rating": 4.3
+    },
+    {
+      "Category": "Chicken",
+      "Name": "MARSALA",
+      "Description": "Sauteed with fresh mushrooms in a marsala wine sauce",
+      "Price": 18.5,
+      "Calories": 450,
+      "Customer Rating": 4.1
+    },
+    {
+      "Category": "Chicken",
+      "Name": "PARMIGIANA",
+      "Description": "Topped with marinara sauce, melted mozzarella and parmesan cheese",
+      "Price": 18.5,
+      "Calories": 700,
+      "Customer Rating": 4
+    },
+    {
+      "Category": "Pizza",
+      "Name": "MARGHERITA",
+      "Description": "12\" Tomato sauce, fresh mozzarella, parmigiana, basil",
+      "Price": 13.5,
+      "Calories": 900,
+      "Customer Rating": 4.2
+    },
+    {
+      "Category": "Pizza",
+      "Name": "BRUSCHETTA",
+      "Description": "12\" Tomatoes, fresh mozzarella, red onions, basil, oil and oregano with balsamic glaze",
+      "Price": 13.5,
+      "Calories": 875,
+      "Customer Rating": 4.9
+    },
+    {
+      "Category": "Pizza",
+      "Name": "GLUTEN FREE",
+      "Description": "10� pre-made gluten free pizza shell",
+      "Price": 13.5,
+      "Calories": 450,
+      "Customer Rating": 3.8
+    },
+    {
+      "Category": "Pizza",
+      "Name": "ROASTED VEGGIE",
+      "Description": "12\" Tomato sauce, zucchini, eggplant, mushrooms, tomatoes, onions, roasted red peppers",
+      "Price": 13.5,
+      "Calories": 450,
+      "Customer Rating": 4.1
+    },
+    {
+      "Category": "Pizza",
+      "Name": "THE WORKS",
+      "Description": "12\" Tomato sauce, pepperoni, sausage, mushrooms, green peppers, onions, mozzarella cheese",
+      "Price": 15,
+      "Calories": 1400,
+      "Customer Rating": 5
+    },
+    {
+      "Category": "Pizza",
+      "Name": "CHEESESTEAK PIZZA",
+      "Description": "12\" Mozzarella cheese & american cheese",
+      "Price": 15,
+      "Calories": 1100,
+      "Customer Rating": 4.9
+    },
+    {
+      "Category": "Sandwiches",
+      "Name": "HOT ROAST BEEF",
+      "Description": "On a 12\" long Italian roll with sharpe provolone cheese",
+      "Price": 10.5,
+      "Calories": 850,
+      "Customer Rating": 4.1
+    },
+    {
+      "Category": "Sandwiches",
+      "Name": "ROAST PORK",
+      "Description": "On a 12\" long Italian roll with sharpe provolone cheese",
+      "Price": 10.5,
+      "Calories": 750,
+      "Customer Rating": 4.1
+    },
+    {
+      "Category": "Sandwiches",
+      "Name": "SAUSAGE, PEPPERS & ONIONS",
+      "Description": "On a 12\" long Italian roll with marinara sauce",
+      "Price": 10.5,
+      "Calories": 850,
+      "Customer Rating": 4.3
+    },
+    {
+      "Category": "Sandwiches",
+      "Name": "CHEESE STEAK SPECIAL",
+      "Description": "On a 12\" long Italian roll with mushrooms, green peppers, fried onions and sharp provolone cheese",
+      "Price": 12.5,
+      "Calories": 950,
+      "Customer Rating": 4.2
+    },
+    {
+      "Category": "Beverages",
+      "Name": "FOUNTAIN DRINK",
+      "Description": "Coke, Diet Coke, Sprite, Root Beer, Dr. Pepper, Cherry Coke, Lemonade, Unsweetened Iced Tea, Orange Fanta, Apple Juice",
+      "Price": 2.25,
+      "Calories": 175,
+      "Customer Rating": "n/a"
+    },
+    {
+      "Category": "Beverages",
+      "Name": "COFFEE / HOT TEA",
+      "Description": "",
+      "Price": 1.95,
+      "Calories": 25,
+      "Customer Rating": "n/a"
+    },
+    {
+      "Category": "Desserts",
+      "Name": "SLICE OF CHEESECAKE",
+      "Description": "",
+      "Price": 7,
+      "Calories": "don't ask",
+      "Customer Rating": 4.7
+    },
+    {
+      "Category": "Desserts",
+      "Name": "CANNOLIS",
+      "Description": "Two",
+      "Price": 5,
+      "Calories": 425,
+      "Customer Rating": 4.4
+    },
+    {
+      "Category": "Desserts",
+      "Name": "SLICE OF APPLE PIE",
+      "Description": "",
+      "Price": 7,
+      "Calories": 375,
+      "Customer Rating": 3.7
+    }
+  ]

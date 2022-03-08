@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import MenuList from './components/MenuList';
 import { convertKeys } from './_lib';
+import MenuList from './components/MenuList';
+import MenuItemsGrid from './components/MenuItemsGrid';
 
 export default function Home({ menuItems }) {
   return (
@@ -13,9 +14,9 @@ export default function Home({ menuItems }) {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Today&apos;s Menu</h1>
+        <h1 className={styles.title}>Menu</h1>
 
-        <MenuList menuItems={menuItems} />
+        <MenuItemsGrid menuItems={menuItems} />
       </main>
 
       <footer className={styles.footer}>Footer</footer>
