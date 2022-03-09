@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import MenuList from './components/MenuList';
+import MenuList from '../components/MenuList';
 import { useQuery } from 'react-query';
-import { convertKeys } from './_lib';
+import { convertKeys } from '../utils/lib';
 
 export default function Home() {
   // Fetch Data
@@ -24,7 +24,6 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Menu</h1>
-
         <MenuList menuItems={data} />
       </main>
 

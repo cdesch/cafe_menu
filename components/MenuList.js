@@ -3,7 +3,7 @@ function MenuList({ menuItems }) {
   return (
     <ul>
       {menuItems.map((item) => (
-        <MenuItem key={item.Name} menuItem={item} />
+        <MenuItem key={item.name} menuItem={item} />
       ))}
     </ul>
   );

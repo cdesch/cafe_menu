@@ -1,5 +1,5 @@
 import MenuItemCard from './MenuItemCard';
-import { Row, Col, Slider, Divider } from 'antd';
+import { Row, Col, Divider } from 'antd';
 
 function MenuListGrid({ menuItems }) {
   return (
