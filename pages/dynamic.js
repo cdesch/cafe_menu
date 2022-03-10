@@ -3,13 +3,18 @@ import styles from '../styles/Home.module.css';
 import MenuList from '../components/MenuList';
 import { useQuery } from 'react-query';
 import { convertKeys } from '../utils/lib';
+import axios from 'axios';
 
+const API_URL = 'http://localhost:3000/api/menu';
 export default function Home() {
   // Fetch Data
   const { isLoading, error, data } = useQuery('repoData', () =>
-    fetch('http://localhost:3000/api/menu').then((res) =>
-      convertKeys(res.json())
-    )
+    // fetch('http://localhost:3000/api/menu').then((res) =>
+    //   convertKeys(res.json())
+    // )
+    axios.get(API_URL).then((res) => {
+      return convertKeys(res.data);
+    })
   );
 
   if (isLoading) return 'Loading...';
