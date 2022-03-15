@@ -4,15 +4,20 @@ import MenuList from '../components/MenuList';
 import { useQuery } from 'react-query';
 import { convertKeys } from '../utils/lib';
 import axios from 'axios';
+const instance = axios.create({
+  crossDomain: true,
+  headers: {'authorizationToken': 'cloud2022'}
+});
+const API_URL = "https://fh34mm97a6.execute-api.us-east-1.amazonaws.com/dev";
 
-const API_URL = 'http://localhost:3000/api/menu';
+// const API_URL = 'http://localhost:3000/api/menu';
 export default function Home() {
   // Fetch Data
   const { isLoading, error, data } = useQuery('repoData', () =>
     // fetch('http://localhost:3000/api/menu').then((res) =>
     //   convertKeys(res.json())
     // )
-    axios.get(API_URL).then((res) => {
+    instance.get(API_URL).then((res) => {
       return convertKeys(res.data);
     })
   );
