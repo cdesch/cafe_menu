@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import MenuList from '../components/MenuList';
 import { convertKeys } from '../utils/lib';
 import menuData from '../data.json';
+import MenuTable from '../components/MenuTable';
 
 export default function Home({ menuItems }) {
   return (
@@ -14,8 +14,9 @@ export default function Home({ menuItems }) {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Today&apos;s Menu</h1>
-        <MenuList menuItems={menuItems} />
+        <h1 className={styles.title}>Menu</h1>
+
+        <MenuTable menuItems={menuItems} />
       </main>
 
       <footer className={styles.footer}>Footer</footer>
@@ -24,14 +25,12 @@ export default function Home({ menuItems }) {
 }
 
 export async function getStaticProps() {
-  // console.log('getStaticProps');
   // Call an external API endpoint to get posts.
   // You can use any data fetching library
-  // const res = await fetch('http://localhost:3000/api/menu');
-  // const data = await res.json();
-  // const menuItems = convertKeys(data);
+  //   const res = await fetch('http://localhost:3000/api/menu');
+  //   const data = await res.json();
+  //   const menuItems = convertKeys(data);
   const menuItems = convertKeys(menuData);
-  // console.log(menuItems);
   // By returning { props: { posts } }, the Blog component
   // will receive `posts` as a prop at build time
   return {
