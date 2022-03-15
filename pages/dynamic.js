@@ -3,15 +3,8 @@ import styles from '../styles/Home.module.css';
 import MenuItemsGrid from '../components/MenuItemsGrid';
 import { useQuery } from 'react-query';
 import { convertKeys } from '../utils/lib';
-// import axios from 'axios';
 import api from '../utils/api';
-// const instance = axios.create({
-//   crossDomain: true,
-//   headers: {'authorizationToken': 'cloud2022'}
-// });
-// const API_URL = "https://fh34mm97a6.execute-api.us-east-1.amazonaws.com/dev";
 
-// const API_URL = 'http://localhost:3000/api/menu';
 export default function Home() {
   // Fetch Data
   const { isLoading, error, data } = useQuery('dyanmicDataLoad', () =>
